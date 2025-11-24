@@ -59,7 +59,7 @@ public class SumOfDigitsTest {
     @Test
     @DisplayName("Sum: Test repeated digits")
     public void testSumRepeatedDigits() {
-        assertEquals(45, SumOfDigits.sumOfDigits("999999999"));
+        assertEquals(81, SumOfDigits.sumOfDigits("999999999"));
     }
 
     @Test
@@ -84,7 +84,7 @@ public class SumOfDigitsTest {
     @Test
     @DisplayName("Sum: Test alternating pattern")
     public void testSumAlternatingPattern() {
-        assertEquals(50, SumOfDigits.sumOfDigits("1010101010"));
+        assertEquals(5, SumOfDigits.sumOfDigits("1010101010"));
     }
 
     @Test
